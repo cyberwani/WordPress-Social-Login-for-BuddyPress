@@ -59,7 +59,7 @@ function wsl_user_custom_avatar($avatar, $mixed, $size, $default, $alt)
 		}
 
 		//User found?
-		if ( $user_id )
+		if ( $user_id && $mixed['object'] != 'group' )
 		{	
 
 			/** 
